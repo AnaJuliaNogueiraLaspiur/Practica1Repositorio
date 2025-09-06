@@ -1,4 +1,5 @@
 import random
+import sys  #Importe sys para poder usar sys.exit(1)
 
 # Preguntas para el juego
 questions = [
@@ -51,3 +52,4 @@ for _ in range(3):
 
     # Se imprime un blanco al final de la pregunta
     print()
+
